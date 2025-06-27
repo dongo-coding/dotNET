@@ -5,7 +5,7 @@ namespace String {
 		static void Main(string[] args) {
 			string s = Console.ReadLine();
             int k = int.Parse(Console.ReadLine());
-            Console.WriteLine(s[k-1]);
+            Console.WriteLine(s[k-1]);                          //nhập xâu s, in ra phần tử k trong xâu s
 		}
 	}
 }
