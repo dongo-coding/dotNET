@@ -99,3 +99,23 @@ namespace String {
 		}
     }
 }
+
+
+
+
+using System;
+
+namespace String {
+    class Program {
+        static void Main(string[] args) {
+            string s = Console.ReadLine();
+            int cnt=0;
+            for(int i=0;i<s.Length;i++){
+                if(s[i] >= 'A' && s[i] <= 'Z'){                            //đếm số kí tự in hoa trong xâu s
+                    cnt++;
+                }
+            }
+            Console.WriteLine(cnt);
+		}
+    }
+}
