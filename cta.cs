@@ -8,7 +8,7 @@ namespace String {
             int cnt=0;
             for(int i=0;i<s.Length;i++){
                 if(s[i]==c){
-                    cnt++;
+                    cnt++;                                      //đếm số lần kí tự c xuất hiện trong xâu s
                 }
             }
             Console.WriteLine(cnt);
